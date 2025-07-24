@@ -1,1 +1,186 @@
-1
+<!DOCTYPE html>
+<html lang="ru" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гайд: Досье на 5 эмоций, которые мы заедаем</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        /* Исправление для Google Sites */
+        html, body {
+            height: auto !important;
+            min-height: 1px !important;
+            overflow: visible !important; 
+        }
+
+        /* Анимация для плавного появления блоков */
+        .fade-in-item {
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeIn 0.6s ease-out forwards;
+        }
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Интерактивное свечение карточек */
+        .interactive-card {
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+        .interactive-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0 30px rgba(45, 212, 191, 0.2);
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-200">
+
+    <div id="main-container" class="container mx-auto max-w-4xl p-4 sm:p-8">
+        
+        <!-- HERO SECTION -->
+        <header class="text-center my-12 sm:my-20 fade-in-item">
+            <h1 class="text-4xl sm:text-5xl font-black text-white leading-tight tracking-tight">
+                ДОСЬЕ НА 5 ЭМОЦИЙ, КОТОРЫЕ МЫ ЗАЕДАЕМ
+            </h1>
+            <p class="mt-4 text-xl text-gray-400">(И как справляться с ними без еды)</p>
+        </header>
+        
+        <!-- Вступительный блок -->
+        <div class="bg-gray-800 rounded-2xl p-6 mb-12 text-center fade-in-item" style="animation-delay: 100ms;">
+             <p class="text-lg text-gray-300">Запомни главное: ты не голоден - ты перегружен. Переедание почти никогда не связано с реальным голодом. Это автоматическая реакция на эмоции, с которыми твой мозг не знает, как справиться иначе. Наша задача - изучить врага в лицо и получить протокол действий для каждой ситуации.</p>
+        </div>
+
+        <!-- Блоки с контентом -->
+        <main class="space-y-8">
+            
+            <!-- Карточка 1 -->
+            <div class="bg-gray-800 rounded-2xl p-6 fade-in-item interactive-card" style="animation-delay: 200ms;">
+                <h3 class="font-bold text-2xl text-red-400 mb-3 flex items-start"><span class="text-3xl mr-3 mt-1">🤯</span><span class="flex-1">ЭМОЦИЯ №1: СТРЕСС И НАПРЯЖЕНИЕ</span></h3>
+                <p class="text-gray-300"><b>Симптомы:</b> Всё достало, куча задач, внутри всё сжато. Руки сами тянутся к холодильнику, даже если ты не голоден.</p>
+                <p class="mt-2 text-gray-400"><b class="text-gray-300">Механизм сбоя:</b> Мозг ищет быстрый дофамин, чтобы снять напряжение. Еда (особенно сладкая) - самый простой способ получить облегчение и иллюзию контроля.</p>
+                <div class="mt-4 bg-gray-700/50 p-4 rounded-lg">
+                    <p class="font-semibold text-white mb-2">Протокол нейтрализации:</p>
+                    <ul class="space-y-2 text-gray-300">
+                        <li class="p-2 rounded-lg hover:bg-gray-600/50 transition-colors">✅ Контрастный душ или умывание ледяной водой.</li>
+                        <li class="p-2 rounded-lg hover:bg-gray-600/50 transition-colors">✅ 10 медленных, глубоких вдохов-выдохов.</li>
+                        <li class="p-2 rounded-lg hover:bg-gray-600/50 transition-colors">✅ Выйти на 5 минут на улицу. Без телефона.</li>
+                        <li class="p-2 rounded-lg hover:bg-gray-600/50 transition-colors">✅ Сказать вслух: «Я не голоден. Я в стрессе. И я с этим справлюсь».</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Карточка 2 -->
+            <div class="bg-gray-800 rounded-2xl p-6 fade-in-item interactive-card" style="animation-delay: 300ms;">
+                <h3 class="font-bold text-2xl text-yellow-400 mb-3 flex items-start"><span class="text-3xl mr-3 mt-1">🔋</span><span class="flex-1">ЭМОЦИЯ №2: УСТАЛОСТЬ И ИСТОЩЕНИЕ</span></h3>
+                <p class="text-gray-300"><b>Симптомы:</b> Всё раздражает, тело ватное, лень даже думать. Но есть резкое желание съесть что-то «вкусненькое».</p>
+                <p class="mt-2 text-gray-400"><b class="text-gray-300">Механизм сбоя:</b> Мозг требует быстрой энергии. Простые углеводы (булки, печенье, фастфуд) - его любимый наркотик.</p>
+                <div class="mt-4 bg-gray-700/50 p-4 rounded-lg">
+                    <p class="font-semibold text-white mb-2">Протокол нейтрализации:</p>
+                    <ul class="space-y-2 text-gray-300">
+                        <li class="p-2 rounded-lg hover:bg-gray-600/50 transition-colors">✅ Лечь на 10 минут, закрыть глаза и просто полежать в тишине.</li>
+                        <li class="p-2 rounded-lg hover:bg-gray-600/50 transition-colors">✅ Выпить стакан воды, можно с щепоткой соли или электролитами.</li>
+                        <li class="p-2 rounded-lg hover:bg-gray-600/50 transition-colors">✅ Включить спокойную музыку и восстановить дыхание.</li>
+                        <li class="p-2 rounded-lg hover:bg-gray-600/50 transition-colors">✅ Сказать себе: «Я не обязан решать все проблемы прямо сейчас».</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Карточка 3 -->
+            <div class="bg-gray-800 rounded-2xl p-6 fade-in-item interactive-card" style="animation-delay: 400ms;">
+                <h3 class="font-bold text-2xl text-sky-400 mb-3 flex items-start"><span class="text-3xl mr-3 mt-1">❓</span><span class="flex-1">ЭМОЦИЯ №3: ТРЕВОГА И НЕОПРЕДЕЛЁННОСТЬ</span></h3>
+                <p class="text-gray-300"><b>Симптомы:</b> Внутренний зуд, беспокойство, мысли «что-то не так», «а вдруг не получится». Еда используется как способ «заземлиться».</p>
+                <p class="mt-2 text-gray-400"><b class="text-gray-300">Механизм сбоя:</b> Процесс жевания и наполнение желудка имитируют чувство безопасности. Еда якобы «заполняет» дыру тревоги.</p>
+                <div class="mt-4 bg-gray-700/50 p-4 rounded-lg">
+                    <p class="font-semibold text-white mb-2">Протокол нейтрализации:</p>
+                    <ul class="space-y-2 text-gray-300">
+                        <li class="p-2 rounded-lg hover:bg-gray-600/50 transition-colors">✅ Написать на бумаге: «Что КОНКРЕТНО меня сейчас тревожит?»</li>
+                        <li class="p-2 rounded-lg hover:bg-gray-600/50 transition-colors">✅ Дыхание «4-6»: 4 секунды вдох носом - 6 секунд выдох ртом. Повторить 10 раз.</li>
+                        <li class="p-2 rounded-lg hover:bg-gray-600/50 transition-colors">✅ Пройтись босиком по полу, переключить внимание на ощущения в стопах.</li>
+                        <li class="p-2 rounded-lg hover:bg-gray-600/50 transition-colors">✅ Сказать: «Я чувствую тревогу. Это просто эмоция, а не реальная угроза».</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Карточка 4 -->
+            <div class="bg-gray-800 rounded-2xl p-6 fade-in-item interactive-card" style="animation-delay: 500ms;">
+                <h3 class="font-bold text-2xl text-violet-400 mb-3 flex items-start"><span class="text-3xl mr-3 mt-1">👤</span><span class="flex-1">ЭМОЦИЯ №4: ОДИНОЧЕСТВО И ПУСТОТА</span></h3>
+                <p class="text-gray-300"><b>Симптомы:</b> Вроде не грустно, но внутри ощущение пустоты. Тянет на тёплую, сладкую, «уютную» еду, которая ассоциируется с детством или заботой.</p>
+                <p class="mt-2 text-gray-400"><b class="text-gray-300">Механизм сбоя:</b> Еда имитирует тепло, заботу и любовь. Мозг привык к цепочке: «Никто не поддержал - значит, нужно поесть».</p>
+                <div class="mt-4 bg-gray-700/50 p-4 rounded-lg">
+                    <p class="font-semibold text-white mb-2">Протокол нейтрализации:</p>
+                    <ul class="space-y-2 text-gray-300">
+                        <li class="p-2 rounded-lg hover:bg-gray-600/50 transition-colors">✅ Написать сообщение или позвонить другу/близкому человеку.</li>
+                        <li class="p-2 rounded-lg hover:bg-gray-600/50 transition-colors">✅ Сделать дыхательное упражнение, положив руки на грудь.</li>
+                        <li class="p-2 rounded-lg hover:bg-gray-600/50 transition-colors">✅ Переключиться на тело: сделать 5-минутную растяжку, потанцевать.</li>
+                        <li class="p-2 rounded-lg hover:bg-gray-600/50 transition-colors">✅ Сказать: «Мне не хватает близости. Я сам могу дать себе внимание и поддержку».</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Карточка 5 -->
+            <div class="bg-gray-800 rounded-2xl p-6 fade-in-item interactive-card" style="animation-delay: 600ms;">
+                <h3 class="font-bold text-2xl text-pink-400 mb-3 flex items-start"><span class="text-3xl mr-3 mt-1">⛓️</span><span class="flex-1">ЭМОЦИЯ №5: СТЫД И САМОЕДСТВО</span></h3>
+                <p class="text-gray-300"><b>Симптомы:</b> Ты уже сорвался, съел «не то», пропустил тренировку. И теперь хочется «добить» себя окончательно со словами «теперь уже всё равно».</p>
+                <p class="mt-2 text-gray-400"><b class="text-gray-300">Механизм сбоя:</b> Еда используется, чтобы заглушить чувство вины и ненависть к себе. Это способ отвлечься от ментальной боли.</p>
+                <div class="mt-4 bg-gray-700/50 p-4 rounded-lg">
+                    <p class="font-semibold text-white mb-2">Протокол нейтрализации:</p>
+                    <ul class="space-y-2 text-gray-300">
+                        <li class="p-2 rounded-lg hover:bg-gray-600/50 transition-colors">✅ ПАУЗА. Просто остановись на 3 минуты. Ничего не делай. Дыши.</li>
+                        <li class="p-2 rounded-lg hover:bg-gray-600/50 transition-colors">✅ Написать на бумаге: «Я сейчас чувствую… (стыд, злость, разочарование)».</li>
+                        <li class="p-2 rounded-lg hover:bg-gray-600/50 transition-colors">✅ Проговорить: «Я не идеален, и это нормально. Я двигаюсь дальше. Я достоин заботы».</li>
+                        <li class="p-2 rounded-lg hover:bg-gray-600/50 transition-colors">✅ Сделать одно простое действие по плану: выпить воды, сделать 10 приседаний, заполнить отчёт.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Финальный блок -->
+            <div class="text-center py-12 fade-in-item" style="animation-delay: 700ms;">
+                <p class="text-2xl font-bold text-white italic">"Ты не слаб. Раньше ты просто заедал то, с чем не умел быть. Теперь у тебя есть инструмент."</p>
+                <p class="mt-4 text-xl text-teal-400 font-semibold tracking-wider">ЗАМЕТИТЬ. НАЗВАТЬ. ПРОЖИТЬ. ДЕЙСТВОВАТЬ ОСОЗНАННО.</p>
+            </div>
+        </main>
+
+        <!-- Подвал -->
+        <footer class="text-center mt-12 border-t border-gray-700 pt-6">
+            <p class="text-sm text-gray-500">Материал подготовлен в рамках программы трансформации "Body Balance". Модуль 6.</p>
+        </footer>
+
+    </div>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const container = document.getElementById('main-container');
+
+            if ('ResizeObserver' in window) {
+                const observer = new ResizeObserver(entries => {
+                    if (entries.length > 0) {
+                        const height = entries[0].target.scrollHeight;
+                        document.body.style.height = height + 'px';
+                        document.documentElement.style.height = height + 'px';
+                    }
+                });
+                if (container) {
+                    observer.observe(container);
+                }
+            } else {
+                const resizeFallback = () => {
+                    if(container) document.body.style.height = container.scrollHeight + 'px';
+                };
+                setInterval(resizeFallback, 300);
+                window.addEventListener('resize', resizeFallback);
+                resizeFallback();
+            }
+        });
+    </script>
+</body>
+</html>
